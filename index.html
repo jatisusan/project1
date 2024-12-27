@@ -1,29 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <img src="./assets/a.jpg" alt="a" width="500">
-    <img src="./assets/b.jpg" alt="b" width="500">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+        <style>
+            a:link {
+                color: yellow;
+            }
+            a:visited {
+                color: chocolate;
+            }
+            a:active {
+                color: red;
+            }
+            a:hover {
+                color: green;
+                font-size: 30px;
+                transition: 1s;
+            }
 
-    <ol type="a" start="10">
-        <li>Apple</li>
-        <li>Banana</li>
-    </ol>
+         
+            #box:hover {
+                transition: 5s;
+                transform: scale(2) rotate(360deg) translateX(100px);
+                border-radius: 50%;
+            }
+        </style>
+	</head>
+	<body link="red" vlink="green" alink="blue">
+		<img src="./assets/a.jpg" alt="a" width="500" />
+		<img src="./assets/b.jpg" alt="b" width="500" />
 
-    <ul type="square">
-        <li>Apple</li>
-        <li>Banana</li>
-    </ul>
+		<ol type="a" start="10">
+			<li>Apple</li>
+			<li>Banana</li>
+		</ol>
 
-    <dl>
-        <dt>title</dt>
-        <dd>description</dd>
-    </dl>
+		<ul type="square">
+			<li>Apple</li>
+			<li>Banana</li>
+		</ul>
 
-    <a href="./profile/myProfile.html">Profile</a>
-</body>
+		<dl>
+			<dt>title</dt>
+			<dd>description</dd>
+		</dl>
+
+		<a href="./profile/myProfile.html">Profile</a>
+
+		<!-- LINK WITH BOX -->
+		<a href="https://www.google.com" title="Go to Google" target="_blank">
+			<div style="height: 100px; width: 200px; background-color: cadetblue">
+				Google
+			</div>
+		</a>
+
+		<!-- LINK WITH IMAGE -->
+		<a href="https://www.daraz.com.np" title="Go to Daraz" target="_blank">
+			<img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Daraz_Logo.png" alt="Daraz" width="200" />
+		</a>
+
+        <!-- BUTTON AS LINK -->
+        <button onclick="window.location='https://www.google.com' ">Go to Google</button>
+
+        <!-- SEND MAIL USING LINK  -->
+        <a href="mailto:abc@gmail.com?subject=xyz&body=hello" title="mail">Send Mail</a>
+
+        <div id="box" style="height: 200px; width: 200px; background-color: chartreuse;"></div>
+	</body>
 </html>
