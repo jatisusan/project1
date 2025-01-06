@@ -1,0 +1,62 @@
+
+
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid gray;
+}
+
+/*=== row size(all) ====*/
+tr {
+    height: 50px;
+}
+
+/*=== column size(all) ====*/
+th {
+    width: 200px;
+}
+td {
+    width: 200px;
+}
+
+/*=== specific row column size ====*/
+#fruit-head {
+    width: 400px;
+}
+
+/*=== specific row height ====*/
+#last-row {
+    height: 100px;
+    background-color: #b1adad;
+}
+
+/*=== table bg ====*/
+/* table {
+    background-color: #f1f1c1;
+} */
+
+/*=== table bg img ====*/
+table {
+    background-image: url('https://images.unsplash.com/photo-1735236270565-983422d5a224?q=80&w=1530&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+/*=== all row bg ====*/
+/* tr {
+    background-color: #f1f1c1;
+} */
+
+/*=== all cells bg ====*/
+/* td, th {
+    background-color: #b4af1c;
+} */
+
+.heads {
+    background-color: #868632;
+}
+
+/*=== table border radius ====*/
+table {
+    border-radius: 20px;
+}
