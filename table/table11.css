@@ -1,0 +1,16 @@
+tr {
+    height: 50px;
+}
+
+th, tr, td {
+    width: 100px;
+}
+
+th, td {
+    border-bottom: 5px solid #484a4b;
+    padding: 30px;
+}
+
+table {
+    border-spacing: 0;
+}

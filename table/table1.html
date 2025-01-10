@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./table11.css">
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Roll</th>
+            <th colspan="2">Fullame</th>
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>John</td>
+            <td>Doe</td>
+            <td>25</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Jane</td>
+            <td>Smith</td>
+            <td>23</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>Roll</th>
+            <td>1</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Full name</th>
+            <td>John</td>
+            <td>Jane</td>
+        </tr>
+
+        <tr>
+            <td>Doe</td>
+            <td>Smith</td>
+        </tr>
+
+        <tr>
+            <th>Age</th>
+            <td>28</td>
+            <td>25</td>
+        </tr>
+    </table>
+
+    <table>
+        <colgroup>
+            <col span="1" style="background-color: rgb(165, 165, 159)">
+            <!-- <col span="1" style="background-color: rgb(122, 122, 121)">
+            <col span="1" style="background-color: rgb(87, 87, 87)"> -->
+            <col span="2"> 
+            <col span="1" style="background-color: rgb(54, 54, 54)">
+        </colgroup>
+        <thead>
+            <tr>
+                <th colspan="4">Student Details</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4">Note: This is test data</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <th>Roll</th>
+                <th colspan="2">Fullname</th>
+                <th>Age</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>John</td>
+                <td>Doe</td>
+                <td>25</td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <table>
+        <tr>
+            <th>SN</th>
+            <th>Fruits</th>
+            <th>Weight</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Apple</td>
+            <td>50kg</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Banana</td>
+            <td>70kg</td>
+        </tr>
+    </table>
+</body>
+</html>
